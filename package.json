@@ -1,0 +1,15 @@
+{
+  "name": "react-component-generator",
+  "main": "./lib/react-generator",
+  "version": "0.0.0",
+  "description": "Atom plugin to generate template for ReactJS component, Redux action, reducer, CSS and other file needed to build a ReactJS component, all at once. Template can be customized based on the environment (Client side, server side, native, or typescript)",
+  "keywords": [
+  ],
+  "repository": "https://github.com/diruuu/atom-react-component-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
