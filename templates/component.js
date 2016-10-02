@@ -28,7 +28,7 @@ class ${toCapital(toCamelCase(name))} extends React.Component${env === "TS" ? "<
         return(
           ${env === "Native"
             ? "<View style={style.center}></View>"
-            : "<div className={style.${toCamelCase(name)}}></div>"
+            : `<div className={style.${toCamelCase(name)}}></div>`
           }
         );
     }
