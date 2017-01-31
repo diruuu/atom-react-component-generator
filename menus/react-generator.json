@@ -2,20 +2,12 @@
   "context-menu": {
     ".tree-view.full-menu .header.list-item": [
       {
-        "label": "React JS Component",
-        "command": "react-generator:JS"
+        "label": "Smart Component",
+        "command": "react-generator:default"
       },
       {
-        "label": "React TS Component",
-        "command": "react-generator:TS"
-      },
-      {
-        "label": "React Native Component",
-        "command": "react-generator:Native"
-      },
-      {
-        "label": "React Isomorphic Component",
-        "command": "react-generator:Uni"
+        "label": "Dumb Component",
+        "command": "react-generator:dumb"
       },
       {
         "type": "separator"

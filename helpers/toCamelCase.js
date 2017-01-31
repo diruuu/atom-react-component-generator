@@ -1,8 +1,5 @@
 'use babel';
 
 export const toCamelCase = (str) => {
-  return str.replace(/^([A-Z])|[\s-_](\w)/g, function(match, p1, p2, offset) {
-        if (p2) return p2.toUpperCase();
-        return p1.toLowerCase();
-    });
+  return str.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
 }

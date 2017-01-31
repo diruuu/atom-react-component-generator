@@ -1,5 +1,6 @@
 'use babel';
+import {toCamelCase} from './toCamelCase';
 
 export const toDash = (str) => {
-  return str.replace( /([a-z])([A-Z])/g, '$1-$2' ).toLowerCase();
+  return toCamelCase(str).replace(/([A-Z])/g, function($1){return "-"+$1.toLowerCase();}).toLowerCase();
 }
